@@ -1,0 +1,10 @@
+
+cmake_minimum_required(VERSION 3.16)
+
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+
+add_subdirectory(game_null_lib_create_return)
+add_subdirectory(graphic_null_lib_create_return)
+add_subdirectory(missing_create_func)
+add_subdirectory(missing_delete_func)
+add_subdirectory(missing_get_info_func)
